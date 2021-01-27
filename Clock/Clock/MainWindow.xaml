@@ -38,7 +38,7 @@
             <!-- Минутная стрелка -->
             <Path StrokeEndLineCap="Round" Fill="Goldenrod"
                   Stroke="Black" StrokeThickness="2"
-                  Data="M 0 -80 L 2.5 -60 0 0 -2.55 -60 0 -80">
+                  Data="M 0 -80 L 2.5 -60  0 0 -2.55 -60 0 -80">
                 <Path.RenderTransform>
                     <RotateTransform x:Name="rotateMinute"/>
                 </Path.RenderTransform>
