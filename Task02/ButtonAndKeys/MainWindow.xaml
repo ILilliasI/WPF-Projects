@@ -1,0 +1,12 @@
+﻿<Window x:Class="ButtonAndKeys.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Кнопка_и_клавиши" Height="450" Width="800"
+        KeyDown="Window_KeyDown">
+    
+    <Button Content="Не трогай меня!" 
+            Name="DontTouchMe"
+            FontSize="20" 
+            Height="45" Width="200"
+            Background="LightSalmon"/>
+</Window>

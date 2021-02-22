@@ -1,0 +1,14 @@
+C:\Users\annas\source\repos\Task02\WindowStyle\bin\Debug\WindowStyle.exe.config
+C:\Users\annas\source\repos\Task02\WindowStyle\bin\Debug\WindowStyle.exe
+C:\Users\annas\source\repos\Task02\WindowStyle\bin\Debug\WindowStyle.pdb
+C:\Users\annas\source\repos\Task02\WindowStyle\obj\Debug\WindowStyle.csprojAssemblyReference.cache
+C:\Users\annas\source\repos\Task02\WindowStyle\obj\Debug\MainWindow.g.cs
+C:\Users\annas\source\repos\Task02\WindowStyle\obj\Debug\App.g.cs
+C:\Users\annas\source\repos\Task02\WindowStyle\obj\Debug\WindowStyle_MarkupCompile.cache
+C:\Users\annas\source\repos\Task02\WindowStyle\obj\Debug\MainWindow.baml
+C:\Users\annas\source\repos\Task02\WindowStyle\obj\Debug\WindowStyle.g.resources
+C:\Users\annas\source\repos\Task02\WindowStyle\obj\Debug\WindowStyle.Properties.Resources.resources
+C:\Users\annas\source\repos\Task02\WindowStyle\obj\Debug\WindowStyle.csproj.GenerateResource.cache
+C:\Users\annas\source\repos\Task02\WindowStyle\obj\Debug\WindowStyle.csproj.CoreCompileInputs.cache
+C:\Users\annas\source\repos\Task02\WindowStyle\obj\Debug\WindowStyle.exe
+C:\Users\annas\source\repos\Task02\WindowStyle\obj\Debug\WindowStyle.pdb

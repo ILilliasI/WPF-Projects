@@ -1,0 +1,79 @@
+﻿<Window x:Class="Stopwatch.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Секундомер" Height="600" Width="700"
+        MinHeight="500" MinWidth="600" Background="#363636"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid ShowGridLines="False">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="60"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Row="1" BorderBrush="White" BorderThickness="0,1,1,0"></Border>
+        <Border Grid.Column="0" 
+                BorderBrush="White" BorderThickness="0,0,1,0" ></Border>
+
+            <Viewbox Grid.Column="0">
+            <Canvas Width="200" Height="200">
+                <Canvas.RenderTransform>
+                    <TranslateTransform X="100" Y="100"/>
+                </Canvas.RenderTransform>
+
+                <Path Fill="Transparent" Stroke="White" StrokeThickness="3"
+              StrokeDashArray="0 3.14159" StrokeDashCap ="Round">
+                    <Path.Data>
+                        <EllipseGeometry RadiusX="90" RadiusY="90"/>
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent" Stroke="Tomato" StrokeThickness="6"
+              StrokeDashArray="0 7.85398" StrokeDashCap ="Round">
+                    <Path.Data>
+                        <EllipseGeometry RadiusX="90" RadiusY="90"/>
+                    </Path.Data>
+                </Path>
+
+                <!-- Секундная стрелка. -->
+                <Path Data="M 0 10 L 0 -80" StrokeEndLineCap="Round"
+                  Stroke="White" StrokeThickness="2" >
+                    <Path.RenderTransform>
+                        <RotateTransform x:Name="rotateSecond"/>
+                    </Path.RenderTransform>
+                </Path>
+
+                <!-- Минутная стрелка. -->
+                <Path StrokeEndLineCap="Round" Fill="White"
+                  Stroke="Tomato" StrokeThickness="2"
+                  Data="M 0 -80 L 2.5 -60  0 0 -2.55 -60 0 -80">
+                    <Path.RenderTransform>
+                        <RotateTransform x:Name="rotateMinute"/>
+                    </Path.RenderTransform>
+                </Path>
+            </Canvas>
+        </Viewbox>
+
+        <Button Name="StartStopButton" Grid.Column="0" Grid.Row="1" Content="Старт"  
+                HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10"
+                Height="40" Width="100" Click="StartStopButton_Click" FontSize="15" Background="White"/>
+        <Button Name="InfoButton" Grid.Column="0" Grid.Row="1" Content="Инфо"
+                 HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10"
+                Height="40" Width="100" Click="InfoButton_Click" FontSize="15" Background="White"/>
+        <Button Name="LapClearButton" Grid.Column="0" Grid.Row="1" Content="Сброс"
+                 HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10"
+                Height="40" Width="100" Click="LapClearButton_Click" FontSize="15" Background="White"/>
+        <!-- Отображение времени текущего интервала. -->
+        <TextBox Grid.Column="1" Grid.Row="1"
+                 Name="Time" Text="00:00:00.000" 
+                 AllowDrop="False" IsReadOnly="True" IsUndoEnabled="False"
+                 VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                 FontSize="20" BorderBrush="Tomato" BorderThickness="3"/>
+        <!-- Список зафиксированных временных интервалов. -->
+        <ListBox  Name="TimeIntervalsList" FontSize="17"
+            Grid.Column="1" Grid.Row="0" Background="#363636" Foreground="White"/>
+    </Grid>
+</Window>

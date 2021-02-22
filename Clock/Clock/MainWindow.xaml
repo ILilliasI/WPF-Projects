@@ -14,7 +14,8 @@
             <Canvas.RenderTransform>
                 <TranslateTransform X="100" Y="100"/>
             </Canvas.RenderTransform>
-            <Path Fill="Transparent" Stroke="Black" StrokeThickness="3"
+
+            <Path Fill="Transparent" Stroke="Black" StrokeThickness="3"
               StrokeDashArray="0 3.14159" StrokeDashCap ="Round">
                 <Path.Data>
                     <EllipseGeometry RadiusX="90" RadiusY="90"/>
@@ -42,7 +43,9 @@
                 <Path.RenderTransform>
                     <RotateTransform x:Name="rotateMinute"/>
                 </Path.RenderTransform>
-            </Path>            <!-- Часовая стрелка -->
+            </Path>
+
+            <!-- Часовая стрелка -->
             <Path StrokeEndLineCap="Round" Fill="Goldenrod"
                   Stroke="Black" StrokeThickness="2" 
                   Data="M 0 -60 C 0 -30, 20 -30, 5 -20 L 5 0
@@ -56,4 +59,5 @@
     </Viewbox>
 
 </Window>
-
+
+

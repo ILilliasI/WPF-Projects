@@ -1,0 +1,14 @@
+C:\Users\annas\source\repos\Task02\ButtonAndKeys\bin\Debug\ButtonAndKeys.exe.config
+C:\Users\annas\source\repos\Task02\ButtonAndKeys\bin\Debug\ButtonAndKeys.exe
+C:\Users\annas\source\repos\Task02\ButtonAndKeys\bin\Debug\ButtonAndKeys.pdb
+C:\Users\annas\source\repos\Task02\ButtonAndKeys\obj\Debug\ButtonAndKeys.csprojAssemblyReference.cache
+C:\Users\annas\source\repos\Task02\ButtonAndKeys\obj\Debug\MainWindow.g.cs
+C:\Users\annas\source\repos\Task02\ButtonAndKeys\obj\Debug\App.g.cs
+C:\Users\annas\source\repos\Task02\ButtonAndKeys\obj\Debug\ButtonAndKeys_MarkupCompile.cache
+C:\Users\annas\source\repos\Task02\ButtonAndKeys\obj\Debug\MainWindow.baml
+C:\Users\annas\source\repos\Task02\ButtonAndKeys\obj\Debug\ButtonAndKeys.g.resources
+C:\Users\annas\source\repos\Task02\ButtonAndKeys\obj\Debug\ButtonAndKeys.Properties.Resources.resources
+C:\Users\annas\source\repos\Task02\ButtonAndKeys\obj\Debug\ButtonAndKeys.csproj.GenerateResource.cache
+C:\Users\annas\source\repos\Task02\ButtonAndKeys\obj\Debug\ButtonAndKeys.csproj.CoreCompileInputs.cache
+C:\Users\annas\source\repos\Task02\ButtonAndKeys\obj\Debug\ButtonAndKeys.exe
+C:\Users\annas\source\repos\Task02\ButtonAndKeys\obj\Debug\ButtonAndKeys.pdb
