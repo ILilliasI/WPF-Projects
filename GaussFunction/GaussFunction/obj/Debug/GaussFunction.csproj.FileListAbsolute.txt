@@ -1,0 +1,14 @@
+C:\Users\annas\source\repos\GaussFunction\GaussFunction\bin\Debug\GaussFunction.exe.config
+C:\Users\annas\source\repos\GaussFunction\GaussFunction\bin\Debug\GaussFunction.exe
+C:\Users\annas\source\repos\GaussFunction\GaussFunction\bin\Debug\GaussFunction.pdb
+C:\Users\annas\source\repos\GaussFunction\GaussFunction\obj\Debug\GaussFunction.csprojAssemblyReference.cache
+C:\Users\annas\source\repos\GaussFunction\GaussFunction\obj\Debug\MainWindow.baml
+C:\Users\annas\source\repos\GaussFunction\GaussFunction\obj\Debug\MainWindow.g.cs
+C:\Users\annas\source\repos\GaussFunction\GaussFunction\obj\Debug\App.g.cs
+C:\Users\annas\source\repos\GaussFunction\GaussFunction\obj\Debug\GaussFunction_MarkupCompile.cache
+C:\Users\annas\source\repos\GaussFunction\GaussFunction\obj\Debug\GaussFunction.g.resources
+C:\Users\annas\source\repos\GaussFunction\GaussFunction\obj\Debug\GaussFunction.Properties.Resources.resources
+C:\Users\annas\source\repos\GaussFunction\GaussFunction\obj\Debug\GaussFunction.csproj.GenerateResource.cache
+C:\Users\annas\source\repos\GaussFunction\GaussFunction\obj\Debug\GaussFunction.csproj.CoreCompileInputs.cache
+C:\Users\annas\source\repos\GaussFunction\GaussFunction\obj\Debug\GaussFunction.exe
+C:\Users\annas\source\repos\GaussFunction\GaussFunction\obj\Debug\GaussFunction.pdb

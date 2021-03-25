@@ -1,0 +1,26 @@
+﻿<Window x:Class="Dog.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="450" Width="800">
+    <Viewbox>
+        <Canvas x:Name="myCanvas" Background="Bisque"  Height="450" Width="800" MouseMove="MyCanvas_MouseMove">
+            <Path x:Name="DogPath" Stroke="Black" StrokeThickness="4">
+                <Path.Data>
+                    <PathGeometry>
+                        <PathFigure StartPoint="180 280">
+                            <PolyBezierSegment Points="180 280 183 268 186 256 189 244 191 244 290 244 
+                                           300 230 339 245 340 246 350 290 360 300 355 210 353 210 
+                                           370 207 380 196 375 193 375 193 310 220 190 220 164 205
+                                           164 205 135 194 135 265 153 275 153 275 168 275 170 180 
+                                           150 190 149 190 122 214 142 204 85 240 86 240 100 247 
+                                           125 233 140 238"/>
+                            <LineSegment Point="330 125" x:Name="leash1"></LineSegment>
+                            <ArcSegment Point="330 115" Size="5, 5" x:Name="leash2"></ArcSegment>
+                            <ArcSegment Point="330 125" Size="5, 5" SweepDirection="Counterclockwise" x:Name="leash3"/>
+                        </PathFigure>
+                    </PathGeometry>
+                </Path.Data>
+            </Path>
+        </Canvas>
+    </Viewbox>
+</Window>
